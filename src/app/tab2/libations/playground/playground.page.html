@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Playground</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/playground.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Sports Bars</ion-card-subtitle>
+      <ion-card-title>Playground Bar and Restaurant</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://playgroundtucson.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Playground Bar and Restaurant</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-396-3691">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 396-3691</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//playground+bar+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e239f85131:0x5c458ab2cc00621?sa=X&ved=2ahUKEwicxMCOy9vnAhXBITQIHcnoDUcQ9RcwIXoECCMQDw')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>278 E Congress St, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk030h0XpKg9xcUMkeSKEjoW3facO7g%3A1599055094223&ei=9qRPX4aNDafB0PEP5cyyyAQ&q=playground+bar+and+lounge+tucson+google+reviews&oq=playground+bar+and+lounge+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoECCMQJ1C9HViPIGC5JGgAcAF4AIABeIgBrAOSAQMxLjOYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwiG4Pe20MrrAhWnIDQIHWWmDEkQ4dUDCA0&uact=5#lrd=0x86d670e2393abd93:0x2b5ffc932c1c22ac,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/playground-bar-and-lounge-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The Playground is located in the heart of Downtown Tucson, making it the perfect “go to” spot for watching your favorite sporting event. You can sit indoors and watch one of their many TV screens, or outside on their large screen TV, located right behind the outdoor bar, so you won’t have to miss a play! Some of the house favorites include chili, tostitos, sandwiches, burgers, wings and much, much more!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

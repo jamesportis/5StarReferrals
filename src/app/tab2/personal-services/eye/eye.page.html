@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/personal-services"></ion-back-button>
+    </ion-button>
+    <ion-title>Tucson Eye Physicians</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/tucson-eye-physicians.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Eye Specialists</ion-card-subtitle>
+      <ion-card-title>Tucson Eye Physicians, PLLC</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.tucsonvision.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Tucson Eye Physicians, PLLC</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-742-1900">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 742-1900</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//Tucson+Eye+Physicians,+PLLC/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d67499f9ba1383:0x4059fd9f8fecd3b7?sa=X&ved=2ahUKEwjK3uqfhovmAhXKrZ4KHdW0BbcQ9RcwGHoECBQQDg')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>1745 E Skyline Dr Suite 175, Tucson, AZ 85718</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01KQvh_NAatsNOqnPj0TJKfD8WFlw%3A1598980503371&ei=l4FOX-uqFvTQ9APE6ryIDw&q=tucson+eye+physicians+google+reviews&oq=tucson+eye+physicians+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQI6BggAEAcQHjoICAAQBxAKEB46BggAEAUQHjoICAAQCBAHEB46BAghEApQkaAMWI25DGCjugxoAHAAeACAAYMBiAHQEJIBBDEyLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwir0p_HusjrAhV0KH0KHUQ1D_EQ4dUDCA0&uact=5#lrd=0x86d67499f9ba1383:0x4059fd9f8fecd3b7,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/tucson-eye-physicians-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p><br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Tucson Eye Physicians, PLLC is dedicated to providing the highest quality eye care. Doctors Peter Kaufer
+      and Barry Kusman have decades of experience in caring for and treating of patients' eye health. Our main
+      office is located in the Catalina Foothills of Tucson, Arizona.
+    
+    </p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

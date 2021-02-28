@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/apps"></ion-back-button>
+    </ion-button>
+    <ion-title>Razor Scooter Share</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/razor.png" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Ride Around Tucson</ion-card-subtitle>
+      <ion-card-title>Razor Scooter Share</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://apps.apple.com/us/app/razor-scooter-share/id1414149130')">
+      <ion-icon name="logo-apple" slot="start"></ion-icon>
+      <ion-label>App Store</ion-label>
+    </ion-item>
+  
+   <ion-item (click)="openWithSystemBrowser('https://play.google.com/store/apps/details?id=com.razor.razor&hl=en_US')">
+      <ion-icon name="logo-android" slot="start"></ion-icon>
+      <ion-label>Google Play</ion-label>
+    </ion-item>
+    
+    
+  </ion-card>
+</ion-content>

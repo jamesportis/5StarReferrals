@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/mexican-restaurants"></ion-back-button>
+    </ion-button>
+    <ion-title>Café Poca Cosa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/cafe-poca-cosa.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Mexican Restaurant</ion-card-subtitle>
+      <ion-card-title>Café Poca Cosa</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://cafepocacosatucson.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Café Poca Cosa</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-622-6400">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 622-6400</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//cafe+poca+cosa/@32.2068087,-110.9693495,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x86d670e1840b3697:0x2ccc518a23a55db!2m2!1d-110.9697779!2d32.22289')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>110 E Pennington Street, Tucson AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01pZb_IiK2ckX2IjyHEnD63vhMcqg%3A1599157251329&ei=AzRRX4fYE4jI0PEP88SV4Ac&q=cafe+poca+cosa+tucson+google+reviews&oq=cafe+poca+cosa+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0COgQIABBHOggIABAIEAcQHjoECCEQClDDjQdYtaUHYIqrB2gAcAJ4AIABzgGIAYUMkgEFNi43LjGYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjH5Z7_zM3rAhUIJDQIHXNiBXwQ4dUDCA0&uact=5#lrd=0x86d670e1840b3697:0x2ccc518a23a55db,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/cafe-poca-cosa-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p><br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>In Cafe Poca Cosa, chef/owner Suzana Davila has placed her imaginative Mexican cuisine within the lively
+      confines of a truly upscale, yet casual, urban bistro setting.<br><br>
+    
+      Davila’s cuisine, which draws upon the wide range of flavors and ingredients indigenous to her native
+      country, provides the ideal opportunity for diners to indulge in a truly unique and memorable dining
+      experience.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/active"></ion-back-button>
+    </ion-button>
+    <ion-title>Rocks & Ropes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/rocks.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Rock Walls</ion-card-subtitle>
+      <ion-card-title>Rocks & Ropes</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://rocksandropes.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Rocks & Ropes</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-882-5924">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 882-5924</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//rocks+and+ropes+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670fb39054037:0x4348645f1a3acb6f?sa=X&ved=2ahUKEwiNtdbS0d7nAhXPFTQIHX3yCeUQ9RcwIHoECBYQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>330 S Toole Ave #400, Tucson, AZ 85701</ion-label>
+    </ion-item>
+    
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/rocks-and-ropes-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Whether you are a beginner rock climber, or experienced and looking for a challenge, Rocks & Ropes is the place to visit. You can come by yourself or with a group of friends/family.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

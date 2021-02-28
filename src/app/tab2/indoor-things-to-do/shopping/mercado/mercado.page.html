@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/shopping"></ion-back-button>
+    </ion-button>
+    <ion-title>The Mercado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/mercado.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Shopping</ion-card-subtitle>
+      <ion-card-title>The Mercado</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://mercadodistrict.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Mercado</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-461-1107">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 461-1107</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//mercado+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66e3955555555:0x40b972c33497401f?sa=X&ved=2ahUKEwjg-Pe05tvnAhUVP30KHT04CUEQ9RcwFHoECBsQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>100 South Avenida del Convento, Tucson, AZ 85745</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk018aI2tFjBC8EFMqomu0Futk-hxfA%3A1599495519317&ei=X11WX6TuEs2y0PEP8a6r4AQ&q=Mercado+San+Agustin+tucson+google+reviews&oq=Mercado+San+Agustin+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1CguAJYoLgCYLjAAmgAcAB4AIABcYgBcZIBAzAuMZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjkmf6RudfrAhVNGTQIHXHXCkwQ4dUDCA0&uact=5#lrd=0x86d66e3955555555:0x40b972c33497401f,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/mercado-san-agustin-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The open-air courtyard is lined with shops and restaurants. Come enjoy local foods and artisan made goods. The MSA Annex features local businesses that are housed in modified shipping containers. When stopping by the MSA Annex, be sure to quench your thirst with a nice refreshing beer from the bar there.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

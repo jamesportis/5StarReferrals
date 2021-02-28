@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/hikes"></ion-back-button>
+    </ion-button>
+    <ion-title>Hikes at Tumamoc Hill</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/hill.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Hikes</ion-card-subtitle>
+      <ion-card-title>Hikes at Tumamoc Hill</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.tucsontopia.com/tumamoc-hill/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Hikes at Tumamoc Hill</ion-label>
+    </ion-item>
+  
+    
+    <ion-card-content>
+      <p>Tumamoc Hill Road Tucson Mountains (Immediately west of Downtown Tucson) - Even though this is a relatively short hike (1.5 miles) because it’s a sloping road, gaining 800 feet in distance, it makes for an intense cardio workout.  At the top, you will have a beautiful, 360-degree view of Tucson.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

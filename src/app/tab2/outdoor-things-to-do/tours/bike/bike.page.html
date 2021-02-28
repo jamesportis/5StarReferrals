@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/tours"></ion-back-button>
+    </ion-button>
+    <ion-title>Bike Tours</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/bike.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Tours</ion-card-subtitle>
+      <ion-card-title>Tucson Bike Tours</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.tucsonbiketours.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Tucson Bike Tours</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/tucson-bike-tours-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_5@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+  
+    
+    
+    <ion-card-content>
+      <p>There are seven bike tours to choose from. They range from seven to eleven miles on flat terrain. They last around two and a half hours. It is truly the best way to see and learn about Tucson. It’s an easy, flat terrain. You will learn so much about the history of Tucson that you will want to sign up for your next tour as soon as you return. And don’t worry, the bike will include a helmet, water bottle, handlebar bag for your personal items and a light for those night tours.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

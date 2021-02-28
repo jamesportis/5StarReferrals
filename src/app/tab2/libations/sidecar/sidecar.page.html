@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Sidecar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/charro-del-rey.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Craft Cocktails</ion-card-subtitle>
+      <ion-card-title>Sidecar</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.barsidecar.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Sidecar</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-795-1819">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 795-1819</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//sidecar+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d67048171704e9:0xafbcf76b28b80bb4?sa=X&ved=2ahUKEwjruM3m0NHnAhUYGTQIHb2lDAYQ9RcwHnoECBoQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>139 S Eastbourne Ave, Tucson, AZ 85716</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03SQl4pOYPzf_hAJ7moca3W97PJGA%3A1599055571322&ei=06ZPX9ucE_yv0PEP9M2gmAI&q=sidecar+tucson+google+reviews&oq=sidecar+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoGCAAQBxAeOggIABAIEAcQHlCS6ARY0O8EYOjwBGgAcAF4AIABc4gB3gWSAQMyLjWYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwib0rea0srrAhX8FzQIHfQmCCMQ4dUDCA0&uact=5#lrd=0x86d67048171704e9:0xafbcf76b28b80bb4,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/sidecar-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Sidecar Bar is a cozy little hide out. They have phenomenally craft cocktails. The staff takes their craft very seriously. Each drink is personally crafted, right down to cutting fresh fruit and herbs individually.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

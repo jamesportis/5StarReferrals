@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Transportation Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/transportation.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Southern Arizona Transportation Museum</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.visittucson.org/business/southern-arizona-transportation-museum?clientid=6522')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Southern Arizona Transportation Museum</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-623-2223">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 623-2223</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//southern+arizona+transportation+museum/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e25cd6f1c3:0x3367e517d3c7b017?sa=X&ved=2ahUKEwi-0f670dvnAhX0JzQIHTDSAFsQ9RcwF3oECBgQDw')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>414 N Toole Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03PyDCwdbPjy4Hkp91ddsHccgD1ZA%3A1599495265632&ei=YVxWX6L7JbzO0PEPhoWq4Ak&q=Southern+Arizona+Transportation+Museum+tucson+google+reviews&oq=Southern+Arizona+Transportation+Museum+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1Cl4wNYpeMDYLTrA2gAcAB4AIABngGIAZ4BkgEDMC4xmAEAoAECoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjir4KZuNfrAhU8JzQIHYaCCpwQ4dUDCA0&uact=5#lrd=0x86d670e25cd6f1c3:0x3367e517d3c7b017,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/southern-arizona-transportation-museum-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>This is a smaller museum, but a huge amount of fun and adventure. The museum is filled with displays of memorabilia, much of which was donated by former railroad employees and their families. How often do you get to sit in an engineer’s seat, pull the cord for the bell! A very cool feature is the miniature train that runs around the perimeter of the museum, above your head.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

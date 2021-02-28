@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurant/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Villa Peru</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/villa2.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/villa-peru.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Peruvian Restaurant</ion-card-subtitle>
+      <ion-card-title>Villa Peru</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.villaperutucson.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Villa Peru</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-900-7310">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 900-7310</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//villa+peru+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d672343eaec22b:0x34553a0bf4f49dd5?sa=X&hl=en&ved=2ahUKEwi4p6HbwYjmAhWfHzQIHX-mCjkQ9RcwFXoECBcQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>1745 E River Rd #165, Tucson, AZ 85718</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01GEYi_RdCK5Qmo-E2w0J3pFK_OTw%3A1599159120429&ei=UDtRX_jtGb690PEP44WgkAQ&q=villa+peru+tucson+google+reviews&oq=villa+peru+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1Dl2QNYvOYDYKzoA2gAcAB4AIABeogBrQiSAQMzLjeYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwj41b_6083rAhW-HjQIHeMCCEIQ4dUDCA0&uact=5#lrd=0x86d672343eaec22b:0x34553a0bf4f49dd5,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/villa-peru-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Let me tell you about Villa Peru. You can stop in for a quick, simple and affordable bite for lunch. You
+        can also enjoy a more exotic dish of authentic and unique Peruvian cuisine for dinner. Enjoy quality
+        service that puts the guest first.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Villa Peru brings to market authentic Peruvian cuisine using high quality, organic ingredients uniquely
+      prepared in combination within a contemporary American service culture and modern design aesthetic that
+      will transport you to the Peruvian Amazon Jungle and the mountain top of Machu Picchu.<br><br>
+    
+      It is our family’s desire to take you on a vicarious adventure to Peru and let you experience
+                    Latin-American hospitality and cuisine in an authentic, fun, and elegant way!</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

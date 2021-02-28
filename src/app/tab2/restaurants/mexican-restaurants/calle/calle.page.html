@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/mexican-restaurants"></ion-back-button>
+    </ion-button>
+    <ion-title>Calle Tepa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/calle-tepa.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Mexican Restaurant</ion-card-subtitle>
+      <ion-card-title>Calle Tepa</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.calletepa.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Calle Tepa</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-777-5962">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 777-5962</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//calle+tepa/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66fa1f344266b:0xf4e362179a528291?sa=X&ved=2ahUKEwi34On5kIjmAhVJFTQIHQIxDmAQ9RcwIHoECBUQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>6151 E Broadway Blvd Tucson, Arizona 85711</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03AzkHLUSNwvwAtf3gAJ32wVUZ_AQ%3A1599157372893&ei=fDRRX8aNNrq80PEPprov&q=calle+tepa+cosa+tucson+google+reviews&oq=calle+tepa+cosa+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1D8wgxYttcMYPLcDGgAcAB4AIABc4gBngiSAQMxLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjGu5q5zc3rAhU6HjQIHSbdCwAQ4dUDCA0&uact=5#lrd=0x86d66fa1f344266b:0xf4e362179a528291,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/calle-tepa-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Calle Tepa is a fast-casual Mexican outpost with a street-style twist. Calle Tepa is a fresh from scratch
+        kitchen. home-made tortillas are cooked before your eyes.<br><br>
+
+        Make sure to enjoy one of the ice-cold beers or specialty margaritas either with your meal or during Happy Hour.<br><br>
+
+        Happy Hour is every day between 3 pm and 6 pm.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Mother and son, Emma and Jordan, worked for years to create a Tucson favorite — home of the table-side
+      salsa and Best Margarita in Town — Guadalajara Original Grill. Their passion project, Calle Tepa, is a
+      fast-casual Mexican outpost with a street-style twist.<br><br>
+    
+      The restaurant is inspired by Emma’s childhood growing up in the vibrant culture of Jalisco, Mexico,
+      where the aroma of home cooking filled the air and was always a way of life. Built from these fond
+      memories, the mother and son team wanted to bring this exciting culinary world here for you to enjoy.<br><br>
+    
+      Calle Tepa, an homage to Tepatitlan where Emma’s mother was raised, is a fresh-from-scratch kitchen,
+      where home-made tortillas are cooked before your eyes, delicious family recipes craft the menu, and the
+      ice-cold beer and specialty margaritas are all part of the experience.</p>
+    </ion-card-content>
+    
+  </ion-card>
+  
+</ion-content>

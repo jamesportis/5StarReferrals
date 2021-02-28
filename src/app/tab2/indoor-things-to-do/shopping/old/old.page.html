@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/shopping"></ion-back-button>
+    </ion-button>
+    <ion-title>Old Town Artisans</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/town.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Shopping</ion-card-subtitle>
+      <ion-card-title>Old Town Artisans Market</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://oldtownartisans.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Old Town Artisans Market</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-623-6024">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 623-6024</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//old+town+market+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6711f8f50ec2f:0xa1b35ef72b97edbf?sa=X&ved=2ahUKEwjqiaHi2dvnAhUkIDQIHQTkDP0Q9RcwFHoECBwQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>201 N Court Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk024Mwin13RSystXVirGKIH0-_3Jew%3A1599495561547&ei=iV1WX7v8IJPj9AP-_rK4Ag&q=Old+Town+Artisans+Market+tucson+google+reviews&oq=Old+Town+Artisans+Market+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1Dp1gVY6dYFYJbdBWgAcAB4AIABbogBbpIBAzAuMZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwj75I-mudfrAhWTMX0KHX6_DCcQ4dUDCA0&uact=5#lrd=0x86d6711f8f50ec2f:0xa1b35ef72b97edbf,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+    
+    
+    <ion-card-content>
+      <p>If you’re looking for a true, historic Tucson shopping experience, then you must visit the distinctive shops and galleries located inside this 150-year-old adobe building. It’s located in the El Presidion Historic District. You’ll find crafts and jewelry from hundreds of local and regional artists. You can also enjoy lunch and live music at the La Cocina. La Cocina is located in the beautiful courtyard.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

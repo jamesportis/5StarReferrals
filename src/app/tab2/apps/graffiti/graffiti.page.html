@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/apps"></ion-back-button>
+    </ion-button>
+    <ion-title>City of Tucson - Graffiti Removal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/graffiti.png" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Make The City Better</ion-card-subtitle>
+      <ion-card-title>City of Tucson - Graffiti Removal</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://play.google.com/store/apps/details?id=com.apporder.myTucson')">
+      <ion-icon name="logo-apple" slot="start"></ion-icon>
+      <ion-label>App Store</ion-label>
+    </ion-item>
+  
+   <ion-item (click)="openWithSystemBrowser('https://play.google.com/store/apps/details?id=com.apporder.myTucson&hl=en_US')">
+      <ion-icon name="logo-android" slot="start"></ion-icon>
+      <ion-label>Google Play</ion-label>
+    </ion-item>
+    
+    
+  </ion-card>
+</ion-content>

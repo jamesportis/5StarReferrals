@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Jewish Heritage Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/jewish.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Jewish Heritage Museum</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.jewishhistorymuseum.org/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Jewish Heritage Museum</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-670-9073">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 670-9073</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//jewish+heritage+museum+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e6424e8aa5:0xddcc3b07e44b291c?sa=X&ved=2ahUKEwicyLfJ09vnAhWIFjQIHQX5BkMQ9RcwFXoECBwQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>564 S Stone Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+    <ion-card-content>
+      <p>The Museum is housed in the first synagogue of the Arizona Territory, which was built in 1910. The contributions of the Jewish community to the development of the southwest is enlightening. The Holocaust Museum is incredible. It is very informative and educational. The Museum should be on everyone’s list of go to places, whether you are Jewish or not.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

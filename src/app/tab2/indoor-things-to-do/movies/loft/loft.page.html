@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/movies"></ion-back-button>
+    </ion-button>
+    <ion-title>The Loft Cinema</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/loft.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Movie Locations</ion-card-subtitle>
+      <ion-card-title>The Loft Cinema</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://loftcinema.org/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Loft Cinema</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-795-0844">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 795-0844</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//loft+cinema+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671cbd38aed5f:0xd8aeea10481d46b0?sa=X&ved=2ahUKEwiD_6e22NvnAhW4FTQIHWVTABkQ9RcwJ3oECBoQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>3233 E Speedway Blvd, Tucson, AZ 85716</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01qeJNPWFB0F4z9HqkW1G3BkSPYnw%3A1599494604897&ei=zFlWX-SwNpLk-gTZlK8o&q=the+loft+cinema+tucson+google+reviews&oq=the+loft+cinema+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECCEQClDR-AJYhIcDYLuIA2gAcAB4AIABaIgBvQuSAQM3LjiYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjkxvrdtdfrAhUSsp4KHVnKCwUQ4dUDCA0&uact=5#lrd=0x86d671cbd38aed5f:0xd8aeea10481d46b0,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/the-loft-cinema-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>This theatre is dedicated to showing independent and foreign films. Every Saturday night they show the cult classic movie, Rocky Horror Picture Show at midnight.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

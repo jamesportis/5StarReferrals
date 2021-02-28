@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Shish Kebab House</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/shish-kebob-house.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/shish-kebab-house.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Middle Eastern Restaurant</ion-card-subtitle>
+      <ion-card-title>Shish Kebab House</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://shishkebabhouseoftucson.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Shish Kebab House</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-745-5308">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 745-5308</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//shish+kebab+house+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66fa2d5a6dfe7:0x958e960bc65cd805?sa=X&hl=en&ved=2ahUKEwi4xZHnuojmAhUtHjQIHYNyC0AQ9RcwFXoECBcQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>5855 E Broadway Blvd, Tucson, AZ 85711</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00Pf-_vzraZSBFf36Uul7LAqHceig%3A1599158919624&ei=hzpRX-zRJZLj9APjv6yoDw&q=shish+kebab+house+tucson+google+reviews&oq=shish+kebab+house+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoGCAAQBxAeOggIABAIEAcQHjoECCEQClDGlARYrqcEYOOoBGgAcAB4AIABfogBlg6SAQQ0LjEzmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwissd-a083rAhWSMX0KHeMfC_UQ4dUDCA0&uact=5#lrd=0x86d66fa2d5a6dfe7:0x958e960bc65cd805,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/shish-kebab-house-of-tucson-tucson-3')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>One of the best Mediterranean restaurants in Tucson, if not THE best. The food and service are amazing. Shish Kebab House offers a wide variety of dishes, many which are unique to their restaurant. Begin your tasting with one of their exceptional appetizers and work your way through their vast array of main dishes and sides. Don’t leave without a bite of their baklava!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>When people in our community are looking for delicious Middle Eastern cuisine, they come to the Shish
+      Kebab House for a few reasons. For one, everything on our menu is prepared with fresh ingredients to
+      ensure the most vibrant flavors arrive at your table.<br><br>
+    
+      Guests also come for the variety we offer -- dishes spanning from Mediterranean favorites to Jordanian cuisine. On top of that, our dining room provides a relaxing atmosphere full of intriguing cultural charm.<br><br>
+      
+      It's the perfect place to unwind with a martini or a glass of Turkish beer. Our family-run restaurant has been serving the best to Tucson since 1993, and we can't wait to share our tradition with you</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

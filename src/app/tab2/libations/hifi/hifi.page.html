@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Hi Fi Kitchen & Cocktails</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/hifi.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Sports Bars</ion-card-subtitle>
+      <ion-card-title>Hi Fi Kitchen & Cocktails</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.hifibars.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>HiFi</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-268-9110">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 268-9110</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//hi+fi+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e25848ab39:0x2b1b0cda5dfaa2b?sa=X&ved=2ahUKEwiL6ujJytvnAhXyoFsKHbFMC1AQ9RcwFXoECBoQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>345 E Congress St #101, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk017jmEfNb7Pn5PVQt-Ir3YhZVtAsw%3A1599054379351&ei=K6JPX6jsFIPj9APpuIrwBg&q=hifi+tucson+google+reviews&oq=hifi+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1DNqgpYuK0KYMWvCmgAcAB4AIABfogBwAOSAQMwLjSYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjorYfizcrrAhWDMX0KHWmcAm4Q4dUDCA0&uact=5#lrd=0x86d670e25848ab39:0x2b1b0cda5dfaa2b,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/flying-leap-vineyards-tasting-room-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Whether you are looking for a fantastic place to have Brunch over the weekend (11am to 3pm), a tantalizing cocktail or a delicious burger, wings or stuffed sandwiches, Hi Fi is the place to go. I highly recommend a light meal, because you shouldn’t leave without having one of their Adult Milkshakes. I recommend The Creamsicle which features Three Olives Orange Vodka, Blue Moon, Tang powder and topped with whipped cream, vanilla soft serve and a cherry on top! Mmm, mmm good! Brings you back to your childhood days when the ice cream man came rolling down the street… minus the alcohol.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

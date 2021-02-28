@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/wildflower-spotting"></ion-back-button>
+    </ion-button>
+    <ion-title>Picacho Peak State Park</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/peak.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Wildflowers</ion-card-subtitle>
+      <ion-card-title>Picacho Peak State Park</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://azstateparks.com/picacho/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Picacho Peak State Park</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-466-3183">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 466-3183</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//picacho+peak+state+park/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x872a0a43d42a62cd:0xe484f7719cd87c96?sa=X&ved=2ahUKEwjFoo246tvnAhVyMX0KHXOuBj0Q9RcwAHoECAQQCQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>15520 Picacho Peak Rd, Picacho, AZ 85141</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03vwyupnNVO29pyXP7iQEv0beLf_w%3A1599494166023&ei=FlhWX6V0udDQ8Q_Zh63IDg&q=picacho+peak+state+park+tucson+google+reviews&oq=picacho+peak+state+park+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1CrpwpY7LgKYOy6CmgAcAB4AIABbIgB9QiSAQQxMC4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwil19eMtNfrAhU5KDQIHdlDC-kQ4dUDCA0&uact=5#lrd=0x872a0a1261ecc509:0x77623e050e76d346,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/picacho-peak-state-park-picacho')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The open-air courtyard is lined with shops and restaurants. Come enjoy local foods and artisan made goods. The MSA Annex features local businesses that are housed in modified shipping containers. When stopping by the MSA Annex, be sure to quench your thirst with a nice refreshing beer from the bar there.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

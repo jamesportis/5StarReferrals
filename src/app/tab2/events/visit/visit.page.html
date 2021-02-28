@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/events"></ion-back-button>
+    </ion-button>
+    <ion-title>Visit Tucson</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/visit.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tourist Information</ion-card-subtitle>
+      <ion-card-title>Visit Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.visittucson.org/visit/events-festivals')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Visit Tucson</ion-label>
+    </ion-item>
+  
+    
+  </ion-card>
+</ion-content>

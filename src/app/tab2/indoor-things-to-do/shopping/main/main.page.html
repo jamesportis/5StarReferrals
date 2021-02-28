@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/shopping"></ion-back-button>
+    </ion-button>
+    <ion-title>Main Gate Square</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/gate.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Shopping</ion-card-subtitle>
+      <ion-card-title>Main Gate Square</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.maingatesquare.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Main Gate Square</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-622-8613">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 622-8613</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//main+gate+square+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671041b5c10e3:0x69025a18b6918e09?sa=X&ved=2ahUKEwjeo8365dvnAhUoHTQIHSQKCrwQ9RcwIXoECBgQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>814 E University Blvd, Tucson, AZ 85719</ion-label>
+    </ion-item>
+    <ion-card-content>
+      <p>This place is perfect for shopping. The Main Gate Square has over 20 shops and 30 restaurants. It features menus from the Mediterranean, Asia, Greece and the USA. You can also recharge yourself with a visit to any of the seven salons and spas. So go ahead and get your nails and hair done. Excellent energy and ambiance.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Ha Long Bay</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/ha-long-bay.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Mexican Restaurant</ion-card-subtitle>
+      <ion-card-title>Ha Long Bay</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.calletepa.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Ha Long Bay</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-777-5962">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 777-5962</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//calle+tepa/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66fa1f344266b:0xf4e362179a528291?sa=X&ved=2ahUKEwi34On5kIjmAhVJFTQIHQIxDmAQ9RcwIHoECBUQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>6151 E Broadway Blvd Tucson, Arizona 85711</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02FMeHJNWEWu-4Z1mPmKkcwnnhGbw%3A1599158257500&ei=8TdRX96YHvqS0PEP44WtwAg&q=ha+long+bay+tucson+google+reviews&oq=ha+long+bay+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1D9vANY48wDYJrPA2gAcAB4AIABhwGIAaQJkgEDNC43mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwie1YLf0M3rAhV6CTQIHeNCC4gQ4dUDCA0&uact=5#lrd=0x86d66fa028d861db:0xc8878b3aa72428be,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/ha-long-bay-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p><br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Ha Long Bay is an authentic Vietnamese restaurant located in Colinia Plaza in Tucson, Arizona.<br><br>
+    
+      We serve rice platters, noodle soups, fried rice, and more! Our Pho Noodle Soup is a local favorite and the following are a few types that we serve: Eye Round Beef and Meatballs, Shrimp, Chicken Slices, and Steamed Vegetables and Tofu.<br><br>
+    
+      Our traditional dinners include Spicy and Hot Fish Simmered in a Clay Pot, Viet Cubed Beef with 5 Spices
+                    and Garlic Flavored, and Curry Basil Filet Fish. Don't forget to try out our Steamed Vermicelli Noodles
+                    such as the Bun with Grilled Lemon Grass Pork and Crispy Roll and Bun with Sugarcane Grilled Shrimp!</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

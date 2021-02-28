@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/fine-dining"></ion-back-button>
+    </ion-button>
+    <ion-title>Downtown Maynards</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/downtown-maynards.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Downtown Restaurant</ion-card-subtitle>
+      <ion-card-title>Maynards Market & Kitchen</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.maynardstucson.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Downtown Maynards</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-545-0577">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 545-0577</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//downtown+maynards+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e25cf3a99b:0xedee9c1a2aa1c125?sa=X&ved=2ahUKEwiT3fqgwdHnAhVFMn0KHQ97BFsQ9RcwFXoECBsQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>400 N Toole Ave A, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00Pdy0OhtczZjkpwV7CTthA3FCxZA%3A1599156975812&ei=7zJRX5eXMa7R0PEPhNeaqA0&q=maynards+tucson+google+reviews&oq=maynards+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1DUmQtYnsALYP3CC2gFcAB4AIABgwGIAcsKkgEDNS44mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjXyu77y83rAhWuKDQIHYSrBtUQ4dUDCA0&uact=5#lrd=0x86d670e25cf3a99b:0xedee9c1a2aa1c125,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/maynards-market-and-kitchen-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Maynards offers what Tucson fine dining is all about. Great service, spectacular ambiance and exceptional food selections. If you arrive early (before your friends) make sure to take a seat at the bar and enjoy one of their scrumptious drinks. I had an Amoroso Sour and it was by the best one I ever had. After you finish (if you can) your amazing dinner, you must have the chocolate torte for dessert. Be prepared to share, because you won’t be able to finish it by yourself!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>
+      <h4>More About This Referral:</h4>
+      </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <p>Instantly transporting yet comfortably familiar, Maynards Kitchen offers an authentic dining experience
+        using local ingredients in an inventive way. With a modern take on traditional techniques this
+        restaurant, described by the New York Times as “dark and handsome”, masterfully creates seasonal dishes
+        in an evocative and elegant atmosphere that is uniquely Maynards.</p>
+      </ion-card-content>
+  </ion-card>
+</ion-content>

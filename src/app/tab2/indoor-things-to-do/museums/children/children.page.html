@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Children’s Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/children.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Children’s Museum Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.childrensmuseumtucson.org/tucson/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Children’s Museum Tucson</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-792-9985">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 792-9985</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//childrens+museum+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e15ce7b433:0x231fc55601932a2b?sa=X&ved=2ahUKEwiJ3Jiq1dvnAhW7FTQIHe__BisQ9RcwHXoECBwQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>200 S 6th Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01L8Myy2BGHPu_tVMPUqaz1BYV0Nw%3A1599494900264&ei=9FpWX8_TD8L19APrmZSgAw&q=childrens+museum+tucson+google+reviews&oq=childrens+museum+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoICAAQCBAHEB5Ql8IGWMTYBmCZ2gZoAHAAeACAAZ4BiAHNDJIBBDEyLjSYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjPnebqttfrAhXCOn0KHesMBTQQ4dUDCA0&uact=5#lrd=0x86d670e15ce7b433:0x231fc55601932a2b,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/childrens-museum-tucson-tucson-3')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The facility has 13 exhibit areas in 17,000 square feet of space. It is a place for kids to build, imagine, explore, create and discover. Check the website for their calendar of events, such as Wee Play, a literacy-based program with singing, reading and playing. For some hands on activities, try We Explore, and enjoy cool demos, experiments and other activities for children ages 3-5.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

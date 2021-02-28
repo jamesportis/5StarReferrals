@@ -1,0 +1,71 @@
+<ion-app>
+  <ion-menu side="start" menuId="tony" contentId="content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-thumbnail slot="start">
+          <ion-img src="/assets/tony-contact.png"></ion-img>
+        </ion-thumbnail>
+        <ion-title>Tony Ray</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+      <ion-menu-toggle auto-hide="true">
+        <ion-item href="tel:1-520-631-8669">
+          <ion-icon slot="start" color="medium" name="call"></ion-icon>
+          <ion-label>Call Tony Ray</ion-label>
+        </ion-item>
+        <ion-item href="sms:1-520-631-8669">
+          <ion-icon slot="start" color="medium" name="phone-portrait"></ion-icon>
+          <ion-label>Text Tony Ray</ion-label>
+        </ion-item>
+        <ion-item href="mailto:tonyray@seetucsonhomes.com">
+          <ion-icon slot="start" color="medium" name="mail"></ion-icon>
+          <ion-label>Email Tony Ray</ion-label>
+        </ion-item>
+        <hr>
+        <ion-toolbar>
+          <ion-thumbnail slot="start">
+            <ion-img src="/assets/darren-contact.png"></ion-img>
+          </ion-thumbnail>
+          <ion-title>Darren Jones</ion-title>
+        </ion-toolbar>
+        <ion-item href="tel:1-520-730-5203">
+          <ion-icon slot="start" color="medium" name="call"></ion-icon>
+          <ion-label>Call Darren Jones</ion-label>
+        </ion-item>
+        <ion-item href="sms:1-520-730-5203">
+          <ion-icon slot="start" color="medium" name="phone-portrait"></ion-icon>
+          <ion-label>Text Darren Jones</ion-label>
+        </ion-item>
+        <ion-item href="mailto:darren@seetucsonhomes.com">
+          <ion-icon slot="start" color="medium" name="mail"></ion-icon>
+          <ion-label>Email Darren Jones</ion-label>
+        </ion-item>
+        <hr>
+        <ion-toolbar>
+          <ion-thumbnail slot="start">
+            <ion-img src="/assets/marta-contact.png"></ion-img>
+          </ion-thumbnail>
+          <ion-title style="width:329px;">Marta Bustamante</ion-title>
+        </ion-toolbar>
+        <ion-item href="tel:1-520-256-5625">
+          <ion-icon slot="start" color="medium" name="call"></ion-icon>
+          <ion-label>Call Marta Bustamante</ion-label>
+        </ion-item>
+        <ion-item href="sms:1-520-256-5625">
+          <ion-icon slot="start" color="medium" name="phone-portrait"></ion-icon>
+          <ion-label>Text Marta Bustamante</ion-label>
+        </ion-item>
+        <ion-item href="mailto:marta@seetucsonhomes.com">
+          <ion-icon slot="start" color="medium" name="mail"></ion-icon>
+          <ion-label>Email Marta Bustamante</ion-label>
+        </ion-item>
+        
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-router-outlet id="content"></ion-router-outlet>
+</ion-app>

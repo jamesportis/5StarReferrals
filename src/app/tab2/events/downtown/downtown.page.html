@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/events"></ion-back-button>
+    </ion-button>
+    <ion-title>DowntownTucson.org</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/downtown-tucson.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Event Calendar</ion-card-subtitle>
+      <ion-card-title>DowntownTucson.org</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.downtowntucson.org/events/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>DowntownTucson.org</ion-label>
+    </ion-item>
+  
+    
+  </ion-card>
+</ion-content>

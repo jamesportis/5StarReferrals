@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/gardens"></ion-back-button>
+    </ion-button>
+    <ion-title>Tohono Chul Garden</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/chul.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Gardens</ion-card-subtitle>
+      <ion-card-title>Tohono Chul Garden</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://tohonochul.org/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Tohono Chul Garden</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-742-6455">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 742-6455</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//mercado+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66e3955555555:0x40b972c33497401f?sa=X&ved=2ahUKEwjg-Pe05tvnAhUVP30KHT04CUEQ9RcwFHoECBsQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>100 South Avenida del Convento, Tucson, AZ 85745</ion-label>
+    </ion-item>
+    
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/tohono-chul-park-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Tohono Chul is one of Tucson’s “Best Kept Secrets”. Take a stroll among the 49 acres of lush desert. Soak up the beauty of the soaring Saguaros and themed botanical gardens. You’ll likely be greeted by a friendly, inquisitive hummingbird, buzzing past your head! In addition to the breathtaking gardens, you will be awed by the beautiful collections of art, created by local artists.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

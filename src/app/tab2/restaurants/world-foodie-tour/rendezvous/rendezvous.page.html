@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Le Rendezvous</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/le2.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/le-rendezvous.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>French Restaurant</ion-card-subtitle>
+      <ion-card-title>Le Rendezvous</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.rendezvoustucson.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Le Rendez-vous</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-323-7373">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 323-7373</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//le+rendezvous+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671e4c04107e9:0xeccf8ee9999106fa?sa=X&ved=2ahUKEwjQkcTzrojmAhXHvp4KHQC7DMEQ9RcwFXoECBkQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>3844 E Fort Lowell Rd, Tucson, AZ 85716</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01Puq46a1o9xvrDl0AgmWtTbuSmbw%3A1599158769263&ei=8TlRX7PLD-e80PEPzrKL0Ac&q=le+rendezvous+tucson+google+reviews&oq=le+rendezvous+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECCEQClCn-ANY-5oEYOqhBGgAcAB4AIABtwGIAdoLkgEDNC45mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjzh4bT0s3rAhVnHjQIHU7ZAnoQ4dUDCA0&uact=5#lrd=0x86d671e4c04107e9:0xeccf8ee9999106fa,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/le-rendez-vous-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Le Rendezvous is committed to serving the Tucson community with the finest French cooking and dining
+        experience. It offers a formal restaurant for that special occasion, or the bistro area with bite sized
+        portions, for meeting up with friends in a relaxing atmosphere.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Award-winning Le Rendez-Vous restaurant has been Tucson's icon for French dining for nearly 40 years.
+      Through perfecting the art of French cooking and outstanding service, Le Rendez-Vous offers authentic
+      French food in a fast-paced world. Proving that attention to detail and the fine dining experience still
+      exist.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

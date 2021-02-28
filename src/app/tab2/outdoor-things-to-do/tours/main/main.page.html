@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/tours"></ion-back-button>
+    </ion-button>
+    <ion-title>Main Gate / 4th Avenue Tour</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/main.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Tours</ion-card-subtitle>
+      <ion-card-title>Main Gate / 4th Avenue Tour</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.tucsonfoodtours.com/tours/main-gate-4th-ave-tour/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Main Gate / 4th Avenue Tour</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-477-7986">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 477-7986</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/main-gate-square-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>The Food Tour of Tucson is an adventure which includes an insider’s look at five locally-owned restaurants. The restaurants are coupled with entertaining stories of Main Gate Square and 4th Avenue’s rich history throughout the tour. Wear sunscreen and comfortable shoes!! You will visit restaurants that have been featured on the Food Network. The exact meeting spot will be emailed to you upon your reservation confirmation. Don’t we always want “insider information” on the best food around!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

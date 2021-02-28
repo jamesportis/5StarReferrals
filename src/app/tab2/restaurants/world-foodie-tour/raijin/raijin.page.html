@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Raijin Ramen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/Raijin-Ramen.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Top Ramen</ion-card-subtitle>
+      <ion-card-title>Raijin Ramen</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.zmenu.com/raijin-ramen-tucson-online-menu/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Raijin Ramen</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-795-3123">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 795-3123</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//raijin+ramen+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671b6729714dd:0xabb4fbef74123fd?sa=X&ved=2ahUKEwix8LTOx9HnAhXtCTQIHV__CowQ9RcwHnoECBkQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>2955 E Speedway Blvd, Tucson, AZ 85716</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02scwEZDWCb9bUva1NKMQD_ZAWoxQ%3A1599158701599&ei=rTlRX9CTJJHR9AOEvL6QCA&q=raijin+ramen+tucson+google+reviews&oq=raijin+ramen+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0CUIb1A1jXggRg6IQEaABwAHgAgAGUAYgB2QqSAQMzLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwiQnuSy0s3rAhWRKH0KHQSeD4IQ4dUDCA0&uact=5#lrd=0x86d671b6729714dd:0xabb4fbef74123fd,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/raijin-ramen-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>If you are looking for authentic Japanese ramen, look no further than Raijin Ramen. Raijin offers different varieties of Miso, Tonkotsu (pork based broth), and veggie broth. If you are into spice, I highly recommend the spicy miso broth! Try to arrive as early as possible as the restaurant fills up quickly and there is usually a wait. <br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

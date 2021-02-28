@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/professional-services"></ion-back-button>
+    </ion-button>
+    <ion-title>Caps & More</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card  class="welcome-card">
+    
+    <img src="/assets/caps.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Promotional Apparrel</ion-card-subtitle>
+      <ion-card-title>Caps & More</ion-card-title>
+    </ion-card-header>
+    <ion-item (click)="openWithSystemBrowser('https://capsandmore.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Caps & More</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-322-9088">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 322-9088</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//caps+and+more+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6704f0305ef0d:0x71062db394b687b?sa=X&ved=2ahUKEwi-juS6rrTsAhV4ITQIHaO4B5cQ9RcwFXoECCEQBQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>198 S Tucson Blvd, Tucson, AZ 85716</ion-label>
+    </ion-item>
+    <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?q=caps+and+more+tucson&rlz=1C1CHBF_enUS903US903&oq=caps+and+more+tucson&aqs=chrome..69i57j35i39j69i60l5j69i61.2167j0j7&sourceid=chrome&ie=UTF-8#lrd=0x86d6704f0305ef0d:0x71062db394b687b,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/caps-and-more-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>If you’ve ever tried on a baseball cap, you know that they are not all created equal.  If you’ve ever purchased caps with your logo embossed on them, you want to make sure that the hat represents you and your business with the highest quality possible.  Especially if you are planning on purchasing a large quantity for marketing.  Buying online or from a catalog doesn’t give you the ability to touch and feel the product for quality control.  That’s why I love Larry’s store, just off Broadway.  Caps & More lets you feel the fabric, try it on for fit and comfort.  You can see how it looks before purchasing.  Also, Larry is a local shop who supports our community.  He is honest, delivers what he promises and produces high quality products.  Whether you own a small shop or a large business, Larry can help you with your promotional needs.
+        <br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Caps and More is a full service facility, enabling us to be certain that all aspects of your orders measure up to our stringent Quality Control Standards without ever having to sacrifice our most important service</p>
+    </ion-card-content>
+    
+  </ion-card>
+
+</ion-content>

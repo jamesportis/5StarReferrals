@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/reid-park"></ion-back-button>
+    </ion-button>
+    <ion-title>Rose Garden</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/rose.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Reid Park's Best Things To Do</ion-card-subtitle>
+      <ion-card-title>Reid Park Rose Garden</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.tucsonparks.org/reid-park-rose-garden/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Reid Park Rose Garden</ion-label>
+    </ion-item>
+  
+    
+    <ion-card-content>
+      <p>If you are seeking a beautiful, tranquil and aromatic setting to sit and relax, perhaps read a book, then head over to the Reid Park Rose Garden. you’ll find over 800 plants from more than 100 species of roses. Through their efforts, the Garden received the Pacific Southwest District Garden of the Year Award in 2012.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

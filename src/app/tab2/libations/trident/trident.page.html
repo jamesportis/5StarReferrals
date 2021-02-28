@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Trident</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/trident.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Sports Bars</ion-card-subtitle>
+      <ion-card-title>Trident - University of Arizona</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.tridentgrill.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Trident</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-795-5755">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 795-5755</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//trident+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671ae54ab08ff:0x16c26ff6e1db8362?sa=X&ved=2ahUKEwj-ybqKytvnAhV2JTQIHd0LA8IQ9RcwAHoECAMQCQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>2033 E Speedway Blvd, Tucson, AZ 85719</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03jcl5Ye9n0wGFtOE5UYpjQ1MCokQ%3A1599055815612&ei=x6dPX6_6JNix0PEPosyf4AI&q=trident+grill+speedway+tucson+google+reviews&oq=trident+grill+speedway+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQI6BAgAEEc6BwgjELACECc6BAghEApQszJY6jhguDpoAHABeACAAW6IAeYEkgEDMS41mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjv-fWO08rrAhXYGDQIHSLmBywQ4dUDCA0&uact=5#lrd=0x86d671ae54ab08ff:0x16c26ff6e1db8362,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/trident-grill-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Away from home? You don’t have to be away from your favorite team. Watch all your favorite sporting events on their Direct TV systems. Happy Hour is 3pm to 6pm Monday through Friday and ALL DAY SUNDAY! Their great menu offers seafood, soups and salads along with burgers and sandwiches. You won’t go hungry or thirsty at any of the Trident locations! You’ll have such a good time, that you’ll probably pick up one of their t-shirts as a memento!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

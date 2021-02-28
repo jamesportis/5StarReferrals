@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Senae Thai</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/senae2.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/senae-thai-bistro.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Thai Restaurant</ion-card-subtitle>
+      <ion-card-title>Senae Thai Bistro</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.senaethai.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Senae Thai</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-373-5335">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 373-5335</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//senae+thai+bistro+tucson/@32.1925272,-110.9716527,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x86d670e1c20b8f6d:0x4de334d57b9b1665!2m2!1d-110.9701!2d32.222051')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>63 E Congress Street, Tucson AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00b12poQ-utcjCrUB-CXQqx3Bhlcw%3A1599158840448&ei=ODpRX-CCG4PQ0PEP7O-T2AY&q=sanae+thai+tucson+google+reviews&oq=sanae+thai+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0CMgUIABDNAjoECAAQRzoGCAAQBxAeOggIABAIEAcQHlCVwwRYgdIEYKTgBGgAcAF4AIABfIgBvQiSAQMxLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjg_v700s3rAhUDKDQIHez3BGsQ4dUDCA0&uact=5#lrd=0x86d670e1c20b8f6d:0x4de334d57b9b1665,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/senae-thai-bistro-tucson-2')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Not a curry fan, well, it was just okay. Then one day Dee, owner of Senae Thai Bistro, opened her new
+        Thai restaurant in downtown Tucson and my taste buds were challenged. The curries (red, green and
+        yellow) are all delicious.<br><br>
+
+        They have a level of sophistication you may not have ever tasted before. The layers of flavors keep you wanting more. I am convinced there is some sort of addictive drug in the sauce. I can never get enough. Try everything. This is our absolute favorite Thai restaurant.<br><br>
+        
+        If you get to meet Dee, and you might because she likes to greet her guests, tell her that Darren and Tony Ray referred you.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Amonwadee “Dee” Buizer, Chef and Owner of Senae Thai Bistro is pleased to bring over 30 years of
+      experience as a very successful restaurateur to downtown Tucson.  Senae Thai Bistro offers exquisite,
+      traditional Thai cuisine that is beautifully presented, and exceptionally served.<br><br>
+    
+      Our carefully chosen wine, beer and cocktail selections are perfect complements to her dishes.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

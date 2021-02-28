@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/movies"></ion-back-button>
+    </ion-button>
+    <ion-title>Roadhouse Cinemas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/roadhouse.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Movie Locations</ion-card-subtitle>
+      <ion-card-title>Roadhouse Cinemas</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://roadhousecinemas.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Roadhouse Cinemas</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-468-7980">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 468-7980</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//roadhouse+cinema+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66e3b41aee31d:0xf41f73eba11c18f6?sa=X&ved=2ahUKEwiArOG419vnAhXtCTQIHbh4AcUQ9RcwFXoECB4QEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>4811 E Grant Rd #150, Tucson, AZ 85712</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00_NMXRprpDyRz2jMMP5N9_yJhfnw%3A1599494656440&ei=AFpWX6bBGtL99AOxk5m4Dg&q=roadhouse+cinema+tucson+google+reviews&oq=roadhouse+cinema+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1DU8QVYlvoFYOb8BWgAcAB4AIABbYgB6AaSAQM2LjOYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwimwcT2tdfrAhXSPn0KHbFJBucQ4dUDCA0&uact=5#lrd=0x86d66e3b41aee31d:0xf41f73eba11c18f6,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/roadhouse-cinemas-tucson-4')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>This theatre offers deep, reclining seats and at-your-seat food and drink service. They even offer alcoholic options for the adults in the group! They offer Specials on prices such as Early Bird Special, $6 Tuesdays, Wise Wednesdays for those 55+ and Industry Night Mondays, featuring discounts on drinks and snacks.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Chocolate Iguana</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/iguana.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Coffee</ion-card-subtitle>
+      <ion-card-title>Chocolate Iguana on 4th</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.chocolateiguana.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Chocolate Iguana on 4th</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-798-1211">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 798-1211</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//chocolate+iguana+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6711c8ac778c3:0x6631ff4816de6d57?sa=X&ved=2ahUKEwiUkr_5x9vnAhVlGDQIHd2JB2sQ9RcwFXoECBsQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>431 N 4th Ave, Tucson, AZ 85705</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00gmKqyCspfSSWe0CegAn4ZuEnnSw%3A1599054550750&ei=1qJPX9eiLYTJ0PEP0pCw-AY&q=chocolate+iguana+tucson+google+reviews&oq=chocolate+iguana+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoICAAQDRAFEB46BAghEApQwM8HWMjkB2Cd5wdoAHACeACAAYoBiAGuDpIBBDQuMTOYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjX5eSzzsrrAhWEJDQIHVIIDG8Q4dUDCA0&uact=5#lrd=0x86d6711c8ac778c3:0x6631ff4816de6d57,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/chocolate-iguana-on-4th-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The service at Chocolate Iguana is second to none. This locally owned shop has wonderful coffee and amazing brownies. It doesn’t stop there. Ice cream, candy, sandwiches and more. It’s a funky little shop with greeting cards, magnets and other take home items.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

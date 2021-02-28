@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/hikes"></ion-back-button>
+    </ion-button>
+    <ion-title>Redington Pass</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/pass.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Hikes</ion-card-subtitle>
+      <ion-card-title>Redington Pass</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.friendsofredingtonpass.org/hiking.html')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Redington Pass</ion-label>
+    </ion-item>
+  
+    
+    <ion-card-content>
+      <p>Santa Catalina Mountains (one hour from Speedway and Campbell) Redington Pass has a variety of gorgeous hiking trail, canyons and bushwhack routes.  Redington Pass offers the best Backcountry in Tucson. The hikes will blow your mind.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

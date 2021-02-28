@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/spas"></ion-back-button>
+    </ion-button>
+    <ion-title>The Chambers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/chamber.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Spas</ion-card-subtitle>
+      <ion-card-title>The Chambers at the Tucson Mall</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.thechambersoftucsonmall.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Chambers at the Tucson Mall</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-474-4200">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 474-4200</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//the+chambers+tucson+mall/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d673bfe01b415f:0x11fc4541d83a4aad?sa=X&ved=2ahUKEwij3sCtztvnAhV5GDQIHRI7CuwQ9RcwFXoECBwQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>4500 N Oracle Rd Suite 425, Tucson, AZ 85705</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02gAbK8059decVDE4kWnULYzv0EXg%3A1599495657436&ei=6V1WX_SLGqSv0PEPwqeu0AI&q=the+chambers+tucson+google+reviews&oq=the+chambers+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1CM2wNY7uYDYL7oA2gAcAB4AIABbYgBggmSAQM4LjSYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwi0pOzTudfrAhWkFzQIHcKTCyoQ4dUDCA0&uact=5#lrd=0x86d673bfe01b415f:0x11fc4541d83a4aad,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>If you want to experience True Relaxation – Perfected, at a very reasonable price, then you need to visit The Chambers. The private float rooms provide an environment of tranquility and comfort. You step into the float pod filled with 1,000 pounds of Epsom salt, feel the stress and strain of work, moving, family issues, etc. quickly fade away. You can lay peacefully, either with or without interior lights. Your mind will drift into a relaxed state as you’ve never experienced before. When you leave the pod you will enter a private shower, with rainfall showers cleansing your skin of the salt that has gathered. The soft Egyptian towels will embrace your body like a loving hug. After you reapply your makeup and blow dry your hair (if you like), make sure to enjoy the relaxing oil-infused oxygen therapy. After all, what good is a relaxed body if your mind isn’t pampered, also!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

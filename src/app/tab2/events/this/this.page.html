@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/events"></ion-back-button>
+    </ion-button>
+    <ion-title>This Is Tucson</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/dead.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Event Calendar</ion-card-subtitle>
+      <ion-card-title>This Is Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://thisistucson.com/todo')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>This Is Tucson</ion-label>
+    </ion-item>
+  
+    
+  </ion-card>
+</ion-content>

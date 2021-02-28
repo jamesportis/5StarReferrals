@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>The Parish</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/parish2.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/the-parish.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Southern Fusion Restaurant</ion-card-subtitle>
+      <ion-card-title>The Parish</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.theparishtucson.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Parish</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-797-1233">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 797-1233</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//the+parish+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6736cc8730041:0xb66537bba781e418?sa=X&hl=en&ved=2ahUKEwiG58_WvYjmAhVGJzQIHclQBEsQ9RcwIXoECCUQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>6453 N Oracle Rd, Tucson, AZ 85704</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02D66aqPdq0w6siJkYvsQsRK2yYgA%3A1599158548703&ei=FDlRX-63KvTy9AO2ipmgDw&q=the+parish+tucson+google+reviews&oq=the+parish+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1D-8ARYvPkEYKz7BGgAcAB4AIABdogBqAiSAQMyLjiYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjukfDp0c3rAhV0OX0KHTZFBvQQ4dUDCA0&uact=5#lrd=0x86d6736cc8730041:0xb66537bba781e418,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/the-parish-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>The Parish is Tucson’s only Southern Fusion Gastropub. It draws its inspiration from Southern Comfort,
+        hospitality, and community. The fun, intimate atmosphere is the perfect casual dining spot. Or, just
+        stop in for one of their housemade infused spirits or craft beers from the full bar. It’s the perfect
+        gathering place.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>The Parish draws its restaurant inspiration from Southern comfort, hospitality and community. The Tucson
+      restaurant’s fare and namesake are inspired by the culinary influences of its three owners that span
+      from Louisiana to Texas to Arizona.<br><br>
+    
+      “Our goal is to create a sense of community and a gathering place through our cuisine and atmosphere.”
+                    All the elements of southern comfort come together at The Parish. The restaurant's menu inspires patrons
+                    to explore and share unique and classic style dishes - with a twist for lunch, dinner, happy hour or
+                    Sunday brunch.<br><br>
+    
+                    The fun intimate atmosphere of this Tucson restaurant is the perfect casual dining gathering spot. Enjoy
+                    a housemade infused spirit or craft beer from the full bar.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

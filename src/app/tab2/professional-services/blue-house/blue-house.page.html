@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/professional-services"></ion-back-button>
+    </ion-button>
+    <ion-title>Blue House Catering</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/blue-house.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/blue-house-2.jpg" alt="" />
+      </ion-slide>
+  
+      
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Catering</ion-card-subtitle>
+      <ion-card-title>Blue House Catering</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.bluehousecatering.com')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Blue House Catering</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-791-0835">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 791-0835</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//blue+house+catering/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66ed924fa32bd:0x1dd14b31c7b7e2b6?sa=X&ved=2ahUKEwjh1ZjPnpXnAhViLH0KHeBkBmYQ9RcwHnoECBYQDg')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>3131 E 1st St, Tucson, AZ 85715</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01mXDUD38U2Pg6JtPkruAAv46n9iw%3A1598977049100&ei=GXROX53aBfTy9AP-jaqQAQ&q=blue+house+catering+google+reviews&oq=blue+house+catering+google+reviews&gs_lcp=CgZwc3ktYWIQAzoGCAAQBxAeOggIABAHEAUQHjoECCEQClC43wVYmvQFYNr1BWgAcAB4AIABdogB6A6SAQQ5LjEwmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjdyo_YrcjrAhV0OX0KHf6GChIQ4dUDCA0&uact=5#lrd=0x86d66ed924fa32bd:0x1dd14b31c7b7e2b6,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/blue-house-catering-tucson?osq=blue+house+catering')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_5@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Started in 1996 by Chef-owner Ron Wassell, Blue House Catering has had 4 homes for its kitchen operations, successfully executed over 2000 events, and served a wide variety of clientele and their guests.<br><br>
+
+      We've worked as far North as Phoenix and Florence, as far South as Rio Rico and Sierra Vista, as far West as Kitt Peak, and as far East as the Dragoon Mountains. There have been Galas, Kosher Bar and Bat Mitzvahs, Weddings, Memorials, Theme Parties and Celebrity sightings.<br><br>
+      
+      We've taken over entire nightclubs. art galleries, vacant storefronts, dance studios, vacant lots, outdoor gardens and a clubhouse or two.
+    
+    </p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

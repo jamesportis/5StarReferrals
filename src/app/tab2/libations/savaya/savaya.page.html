@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Savaya Coffee</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/savaya.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Coffee</ion-card-subtitle>
+      <ion-card-title>Savaya Coffee Market</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://savayacoffee.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Savaya Coffee Market</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-203-8099">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 203-8099</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//Savaya+Coffee+Market,+2959+N+Swan+Rd,+Tucson,+AZ+85712/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66e19b36d4483:0x693b9b8c07f1933a?sa=X&ved=2ahUKEwityu_NxdvnAhXBITQIHcnoDUcQ48ADMAB6BAgSECI')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>2959 N Swan Rd, Tucson, AZ 85712</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk023KYWICphGUoeh39W8vOgKdFp2cA%3A1599055480968&ei=eKZPX6moOqLR9AOOpo9w&q=savaya+coffee+swan+tucson+google+reviews&oq=savaya+coffee+swan+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoECCMQJzoFCAAQzQJQsSNYjylg_SpoAHABeACAAXCIAf4DkgEDMi4zmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwipxKzv0crrAhWiKH0KHQ7TAw4Q4dUDCA0&uact=5#lrd=0x86d66e19b36d4483:0x693b9b8c07f1933a,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/savaya-coffee-market-tucson-3')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Enjoy a delightful, fresh, robust cup of joe in a setting making your feel as though you’re are on an international adventure. Melt into the soft, cushy chairs with a hot cup of coffee and your favorite book. For many, it is a second home, or favorite meeting spot with friends. The baristas take pride in their work and happen to make the creamiest foam.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

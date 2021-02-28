@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/apps"></ion-back-button>
+    </ion-button>
+    <ion-title>GoTucson Parking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/parking.png" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Downtown Tucson Parking</ion-card-subtitle>
+      <ion-card-title>GoTucson Parking</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://apps.apple.com/us/app/gotucson-parking/id951267746')">
+      <ion-icon name="logo-apple" slot="start"></ion-icon>
+      <ion-label>App Store</ion-label>
+    </ion-item>
+  
+   <ion-item (click)="openWithSystemBrowser('https://play.google.com/store/apps/details?id=com.passportparking.mobile.gotucson&hl=en_US')">
+      <ion-icon name="logo-android" slot="start"></ion-icon>
+      <ion-label>Google Play</ion-label>
+    </ion-item>
+    
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/mexican-restaurants"></ion-back-button>
+    </ion-button>
+    <ion-title>Elvira's</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/elviras2.jpg" alt="" />
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="/assets/elviras.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Mexican Restaurant</ion-card-subtitle>
+      <ion-card-title>Elvira's</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.elvirasrestaurant.com/menus.htm')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Elvira's</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-499-2302">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 499-2302</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//elviras+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e23ca4fd91:0xef0fbe5d31209206?sa=X&ved=2ahUKEwiUwdDboIjmAhXM6Z4KHVuZB-8Q9RcwInoECBkQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>256 E Congress St, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk0139qA__pOgYQ4CTTvOCuyxiR0rcw%3A1599157700804&ei=xDVRX5XKMK7P0PEPm4u30Ao&q=elviras+tucson+google+reviews&oq=elviras+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQR1CjJFjQLGC9LmgAcAJ4AIABc4gB5AGSAQMwLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwiVvMjVzs3rAhWuJzQIHZvFDaoQ4dUDCA0&uact=5#lrd=0x86d670e23ca4fd91:0xef0fbe5d31209206,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/elviras-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Elvira’s is nestled in the heart of the Downtown area. It has a second location in Tubac if you were
+        planning on hitting the road for an adventure. The restaurant features many delicious and unique items.
+        One of the fan favorites is the mole.<br><br>
+
+        They offer a variety of tacos, from pork to chicken and fish. The service is friendly and helpful. The
+                    décor is breathtaking<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Established in 1927 Elvira's Restaurant of Nogales, Mexico is now in Tubac, Arizona bringing you the best
+      Mexican cuisine and award-winning dishes! The third location has opened in Downtown Tucson and the decor
+      is as breathtaking as the food is delicious.<br><br>
+    
+      Whatever your craving, they will have a dish to please you. The stunning lights at the Downtown location make you feel as though you are eating under the stars.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/movies"></ion-back-button>
+    </ion-button>
+    <ion-title>Galaxy Theatres</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/galaxy.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Movie Locations</ion-card-subtitle>
+      <ion-card-title>Galaxy Theatres</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.galaxytheatres.com/Home/PickLocation')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Galaxy Theatres</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-407-9874">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 407-9874</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//galaxy+theater+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6689b0d159881:0xa0420679c34d9dfb?sa=X&ved=2ahUKEwjorJrv2NvnAhXEIDQIHRZGAbAQ9RcwHXoECB8QEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>100 S Houghton Rd, Tucson, AZ 85748</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03T3IdKKmTSCB33Jd5PSPqjY7Z_1g%3A1599494512766&ei=cFlWX_WhLqCs0PEPosefgAg&q=galaxy+theater+tucson+google+reviews&oq=galaxy+theater+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoECCEQClDgpwVY-cEFYNnEBWgAcAJ4AIABeYgB6AqSAQM5LjWYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwj1mYOytdfrAhUgFjQIHaLjB4AQ4dUDCA0&uact=5#lrd=0x86d6689b0d159881:0xa0420679c34d9dfb,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/galaxy-theatres-tucson-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>They offer real butter on your popcorn. Need I say more? Well, I will. You can also add seasonings to your popcorn at one of the seasoning stations. You can also get beer, wine and soda to help wash down the popcorn. Sit back and relax in their comfortable, reclining seats.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

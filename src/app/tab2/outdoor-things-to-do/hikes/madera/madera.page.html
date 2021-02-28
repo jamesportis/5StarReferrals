@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/hikes"></ion-back-button>
+    </ion-button>
+    <ion-title>Madera Canyon</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/madera.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Hikes</ion-card-subtitle>
+      <ion-card-title>Madera Canyon</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.visittucson.org/business/madera-canyon?clientid=6391')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Madera Canyon</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-281-2296">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 281-2296</ion-label>
+    </ion-item>
+    <ion-item >
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>S Madera Canyon Road, Green Valley</ion-label>
+    </ion-item>
+    
+    <ion-card-content>
+      <p>Madera Canyon offers an outstanding cross-section of Southwestern bird habitats. Walk one of the many trails and hopefully you can catch a glimpse of some of the more than 200 bird species recorded. Bring along a picnic basket or dine in nearby Green Valley. As part of the Santa Rita Mountains, you are approximately 25 miles from Tucson.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

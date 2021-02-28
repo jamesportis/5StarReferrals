@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/tours"></ion-back-button>
+    </ion-button>
+    <ion-title>Tombstone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/tombstone.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Tours</ion-card-subtitle>
+      <ion-card-title>Tombstone</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://tombstoneweb.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Tombstone</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-457-3884">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 457-3884</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/tombstone-tombstone')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>Take a trip to Tombstone, Arizona. You’ll be taking a trip back in time. It’s an entire family entertainment experience. Tombstone offers you the chance to experience a gunfight held daily at The Gunfight Palace. You can check to see if you have what it takes to be a true gunfighter; a keen eye and steady hand at the Big Iron Shooting gallery. How about a guided tour leaving nightly from Big Nose Kate’s Saloon. You’ll see Tombstone’s 10 most haunted destinations. Gun-slinging not your style? Then head over to the Good Enough Mine Underground Tour. The guides will present you with a fascinating history of the miners below ground, and their families above ground.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

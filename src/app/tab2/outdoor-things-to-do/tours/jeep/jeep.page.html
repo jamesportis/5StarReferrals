@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/tours"></ion-back-button>
+    </ion-button>
+    <ion-title>Jeep Tours</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/jeep.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Tours</ion-card-subtitle>
+      <ion-card-title>Trail Dust Jeep Tours</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.traildustoffroadtoursinc.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Trail Dust Jeep Tours</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-747-0323">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 747-0323</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//trail+dust+jeep+tours/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66f8c0d422837:0x223945f03409c3c6?sa=X&ved=2ahUKEwj1m5uZ097nAhU2JzQIHUkcBQAQ9RcwIXoECBoQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>1665 S Craycroft Rd, Tucson, AZ 85711</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/trail-dust-jeep-tours-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Whether you go on the Desert Ecology Tour, experiencing both breathtaking scenery and “amazing desert critters”, the Sunset Tour, and observe the amazing sunset with our beautiful rock formations in the forefront, or a rally team-building tour, full of games, education and of course, critters, you will have a day you will never forget. Sit back and relax or get up close and personal with the critters.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

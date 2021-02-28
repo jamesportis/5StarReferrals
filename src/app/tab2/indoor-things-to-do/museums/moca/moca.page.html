@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Museum of Contemporary Art</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/contemporary.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Museum of Contemporary Art</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://moca-tucson.org/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Museum of Contemporary Art</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-624-5019">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 624-5019</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//museum+of+contemporary+art+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e12a503bc9:0x1ff58abc8e76ecac?sa=X&ved=2ahUKEwiX04Hmz9vnAhXYGTQIHRTVDQgQ9RcwF3oECBgQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>265 S Church Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03cqYDIuBS-jzCx5fZVAAQ9r96fRw%3A1599495011675&ei=Y1tWX_rtKKW50PEPpe28mAk&q=museum+of+contemporary+art+tucson+google+reviews&oq=museum+of+contemporary+art+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECCEQClCEpgdY6csHYIfNB2gCcAB4AIABeYgB0BWSAQUxNi4xMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwi6q_aft9frAhWlHDQIHaU2D5MQ4dUDCA0&uact=5#lrd=0x86d670e12a503bc9:0x1ff58abc8e76ecac,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/museum-of-contemporary-art-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>There are plenty of museums in Tucson. MOCA is Tucson’s only museum devoted exclusively to contemporary are from both Tucson and around the globe. Not only are the exhibits inside the building artwork, but the building itself is a repurposed firehouse. You can visit MOCA repeatedly, because the exhibits are rotated regularly. You’ll enjoy works from local, national and internationally renowned contemporary artist.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

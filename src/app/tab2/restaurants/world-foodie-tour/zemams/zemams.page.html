@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/world-foodie-tour"></ion-back-button>
+    </ion-button>
+    <ion-title>Zemam's Ethiopian</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    
+    <ion-slides pager="true">
+
+      <ion-slide>
+        <img src="/assets/zemams2.jpg" alt="" />
+      </ion-slide>
+
+      <ion-slide>
+        <img src="/assets/zemams.jpg" alt="" />
+      </ion-slide>
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Ethiopian Restaurant</ion-card-subtitle>
+      <ion-card-title>Zemam's Ethiopian Restaurant</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.zemamsrestaurants.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Zemam's Ethiopian Restaurant</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-882-4955">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 882-4955</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//zemam+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d67117249eb8c9:0x4c4cac7492a294ca?sa=X&hl=en&ved=2ahUKEwiA6v7dw4jmAhW9IDQIHRV0Do8Q9RcwFXoECBYQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>119 E Speedway Blvd, Tucson, AZ 85705</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02d3we8eCeG558vhY5WrjmGQyvlTg%3A1599159184686&ei=kDtRX5u2Kfm_0PEPkemO2AQ&q=zemams+tucson+google+reviews&oq=zemams+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1CFtgNYm74DYKPDA2gAcAB4AIABa4gB7QSSAQMwLjaYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwibvpGZ1M3rAhX5HzQIHZG0A0sQ4dUDCA0&uact=5#lrd=0x86d67048e0810a4f:0xd5275a56bf9d13d,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/zemams-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>I have tried the Ethiopian restaurant at Five Points and the one near Speedway and Craycroft. One of the
+        restaurants served us watery meals that we could not pick up with the injera bread.<br><br>
+
+        I really understood how great Zemam's was during that very runny meal.<br><br>
+
+        No one compares to the authentic flavors that Zemam's Ethiopian Restuarant offers. I love love love the lentils, the collard greens and the cabbage potato dish. Actually, all of their vegetarian dishes are my favorite. The meat dishes are great, but the flavors really come out in the vegetarian dishes.<br><br>
+        
+        The injera bread is the best that I have found. It is thin and spongy and easy to use when grabbing food. The consistency of the meals work perfectly with the bread. The flavors leave you wanting more and the tea is perfect.<br><br>
+        
+        I would suggest trying the sampler platters. If you're nervous about eating Ethiopian food the first time, call us and we will go with you : )<br><br>
+        
+        Darren and I usually eat there for about $20 for two. I think you can bring a bottle of wine and they will cork it for you for a couple of bucks.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-card-header>
+    <ion-card-title>
+    <h4>More About This Referral:</h4>
+    </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    <p>Family-owned, BYOB Ethiopian restaurant in a cozy converted house. It's been a staple in Tucson for around 25 years.<br><br>
+    
+      Comfort food · Small plates · Healthy options. Come with a small group so that you can try several dishes. The prices are very reasonable.</p>
+    </ion-card-content>
+    
+  </ion-card>
+</ion-content>

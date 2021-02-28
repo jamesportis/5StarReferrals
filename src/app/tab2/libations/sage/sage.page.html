@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/libations"></ion-back-button>
+    </ion-button>
+    <ion-title>Raging Sage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/sage.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Coffee</ion-card-subtitle>
+      <ion-card-title>Raging Sage Coffee Roasters</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.ragingsage.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Raging Sage Coffee Roasters</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-320-5203">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 320-5203</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//raging+sage+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d67198c4817229:0x54cac5e4142a3472?sa=X&ved=2ahUKEwig-__6yNvnAhVDCTQIHcqBBrsQ9RcwFXoECBsQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>2458 N Campbell Ave, Tucson, AZ 85719</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00nzfC2IhY7nNDgOULfD7WPrry9wQ%3A1599055202489&ei=YqVPX6GjHcL29APT1YP4Bg&q=raging+sage+coffee+tucson+google+reviews&oq=raging+sage+coffee+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0COgQIIRAKUKK1BVit5AVgw-YFaANwAHgAgAFziAHvEJIBBDYuMTWYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwih3Mfq0MrrAhVCO30KHdPqAG8Q4dUDCA0&uact=5#lrd=0x86d67198c4817229:0x54cac5e4142a3472,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/raging-sage-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Raging Sage is a small micro-roastery. It’s a great place for a delicious cup of joe paired with a soft, tender scone. They also offer some gluten free and vegan options.  It’s offers a very welcoming atmosphere. Beautiful day (of course, we’re in Tucson) well enjoy your beverage on the patio.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

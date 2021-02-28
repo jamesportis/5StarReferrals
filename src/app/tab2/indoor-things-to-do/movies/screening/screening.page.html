@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/movies"></ion-back-button>
+    </ion-button>
+    <ion-title>The Screening Room</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/room.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Movie Locations</ion-card-subtitle>
+      <ion-card-title>The Screening Room</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://screeningroomdowntown.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Screening Room</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-882-0204">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 882-0204</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//screening+room+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670e1f3bbb95d:0x5fcc01f4ea5e50?sa=X&ved=2ahUKEwjt0Lz21tvnAhVlJzQIHa5DAZ8Q9RcwFXoECCAQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>127 E Congress St, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk02gSGg-SwcgGvGDkR4ekO2GWqfnFw%3A1599494755699&ei=Y1pWX5WfKsq80PEPn7y_-AE&q=the+screening+room+tucson+google+reviews&oq=the+screening+room+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQA1CVhwRYrJgEYOyZBGgAcAB4AIABcIgBvg2SAQQxMi42mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjV3O6lttfrAhVKHjQIHR_eDx8Q4dUDCA0&uact=5#lrd=0x86d670e1f3bbb95d:0x5fcc01f4ea5e50,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/the-screening-room-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>The Screening Room offers a mix of eclectic and mainstream movies. They offer the lowest ticket prices in town, no matter what time of day or night you go.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

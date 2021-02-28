@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Gem and Mineral Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/gem.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>University of Arizona Gem and Mineral Museum</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.visittucson.org/business/sosa-carrillo-house-museum?clientid=28655')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>University of Arizona Gem and Mineral Museum</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-621-7827">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 621-7827</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//uofa+gem+museum+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671aa2abbb845:0xaaca377208e8d894?sa=X&ved=2ahUKEwiel6zo1dvnAhXhPn0KHa-pC4oQ9RcwF3oECCoQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>1601 E University Blvd, Tucson, AZ 85719</ion-label>
+    </ion-item>
+    <ion-card-content>
+      <p>Dating back to 1919, this museum has accumulated over 35,000 mineral specimens in the main collection and over 7,000 in the micromount collection. The collection is divided into several major exhibits including minerals from Mexico, Bisbee, Ajo, Morenci and more. The exhibits focus on minerals from the local areas, but include a world-wide scope.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

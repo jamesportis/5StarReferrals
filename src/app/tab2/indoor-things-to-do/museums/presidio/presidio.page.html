@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Presidio Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/presidio.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Presidio Museum</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://tucsonpresidio.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Presidio Museum</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-837-8119">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 837-8119</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//presidio+museum+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d6711f96d70e57:0x399d152bfc2ed526?sa=X&ved=2ahUKEwif7P-V0tvnAhXlJDQIHR8xAsoQ9RcwGHoECBgQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>196 N Court Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+    <ion-card-content>
+      <p>Take a trip back in time at the Presidio San Agustin del Tucson Museum. Tour guides will present what life in the Santa Cruz Valley for Native Americans, Presidio residents and Territorial Period settlers.  You will see the remains of a pit house, stroll along the original Presidio wall and a classic Sonoran Row house. Arrive between 10am and 1pm on the fourth Saturday of the month and you can experience the day in the life of a blacksmith and tinsmith. The second Saturday of the month brings you demonstrations such as, candle making, fresh baked bread and handmade tortillas. You can also learn how soldiers fire their muskets! You have to put it on your “to-do” list, because there is so much more!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

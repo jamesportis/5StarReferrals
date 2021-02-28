@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/wildflower-spotting"></ion-back-button>
+    </ion-button>
+    <ion-title>Lost Dutchman State Park</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/lost.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Wildflowers</ion-card-subtitle>
+      <ion-card-title>Lost Dutchman State Park</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://azstateparks.com/lost-dutchman')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Lost Dutchman State Park</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:480-982-4485">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(480) 982-4485</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//lost+dutchman+state+park/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x872bb7fc9d72b0d7:0x66914a4f05f5f4ec?sa=X&ved=2ahUKEwjQ_J7F6dvnAhWpHDQIHWn8DfEQ9RcwK3oECBYQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>6109 N Apache Trail, Apache Junction, AZ 85119</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/lost-dutchman-state-park-apache-junction-3')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Located outside of Tucson, but close enough to include on your list of places to explore. Top-notch for wildflower spotting. Here you’ll be treated to a carpet of desert wildflowers in the spring. There are six trails, but the one for best wildflower sighting is the Native Plant Trail. You’ll be treated to ¼ mile of beauty. Now go get your hike on!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

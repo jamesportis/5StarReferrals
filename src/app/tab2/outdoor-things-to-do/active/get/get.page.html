@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/active"></ion-back-button>
+    </ion-button>
+    <ion-title>Get Air Sports</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    
+    <img src="/assets/air.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Trampoline Park</ion-card-subtitle>
+      <ion-card-title>Get Air Sports</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.getairsports.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Get Air Sports</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-624-5867">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 624-5867</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//get+air+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670fb3bf65969:0xe3c72a2891dd4a2?sa=X&ved=2ahUKEwj__Oj7z97nAhUhIDQIHQdRDVwQ9RcwJHoECBUQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>330 S Toole Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk01DJvYl5qHeVo-d93nbeJc4t5B_xw%3A1599493029446&ei=pVNWX7XjGqLj9APPuoKQBQ&q=get+air+tucson+google+reviews&oq=get+air+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzIECCMQJzoECAAQRzoICAAQDRAFEB46BwgjELACECdQvLIEWLK7BGCpvQRoAHACeACAAWmIAfsFkgEDNS4zmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwj1ydzur9frAhWiMX0KHU-dAFIQ4dUDCA0&uact=5#lrd=0x86d670fb3bf65969:0xe3c72a2891dd4a2,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/get-air-tucson-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_2_half@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    
+    <ion-card-content>
+      <p>Remember those neighborhood Dodgeball games you had as a kid? Well now add another level of excitement to it. With thousands of square foot, wall to wall inside this facility, you’ll enjoy hours of fun. You can jump from trampoline to trampoline, jump from the trampoline to the foam pit and even use the trampoline lanes to do your best NBA imitation dunk with the slam ball. If individual jumping is your game, they have those, too. Bring the whole family. There’s something for everyone!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/indoor-things-to-do/museums"></ion-back-button>
+    </ion-button>
+    <ion-title>Sosa-Carrillo-Frémont Museum</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/sosa.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Museums</ion-card-subtitle>
+      <ion-card-title>Sosa-Carrillo-Frémont Museum</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.visittucson.org/business/sosa-carrillo-house-museum?clientid=28655')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Sosa-Carrillo-Frémont Museum</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-850-5779">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 850-5779</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//Sosa-Carrillo-Fr%C3%A9mont+Museum+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d670de2a22b1af:0x194649046a9ec7a5?sa=X&ved=2ahUKEwi6pOSR1NvnAhWpGDQIHX-lDJgQ9RcwFHoECBcQDQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>151 S Granada Ave, Tucson, AZ 85701</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk03LA6UuDy5bq5LM2fznZDLUEuURWg%3A1599495137635&ei=4VtWX4OwJqHJ0PEPxOGAQA&q=Sosa-Carrillo-Fr%C3%A9mont+Museum+tucson+google+reviews&oq=Sosa-Carrillo-Fr%C3%A9mont+Museum+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQDFCM0gdYjNIHYMneB2gAcAB4AIABaogBapIBAzAuMZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjDpP7bt9frAhWhJDQIHcQwAAgQ4dUDCA0#lrd=0x86d670de2a22b1af:0x194649046a9ec7a5,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/sosa-carrillo-fremont-house-museum-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_1@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>This is a beautifully preserved example of Sonoran and Territorial architecture.  This typical Sonoran row house features a central hall leading from the front door to the rear courtyard.  As typical with many homes such as this, a giant fig tree stands grandly in the center of the rear yard.  The tour is less than an hour, so there is no excuse for not making the time to visit.  It will be worth the trip.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

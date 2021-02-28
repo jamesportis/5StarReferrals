@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/gardens"></ion-back-button>
+    </ion-button>
+    <ion-title>Yume Japanese Gardens</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <img src="/assets/yumi.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Gardens</ion-card-subtitle>
+      <ion-card-title>Yume Japanese Gardens of Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('http://www.yumegardens.org/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Yume Japanese Gardens of Tucson</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-272-3200">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 272-3200</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//yume+japanese+gardens+of+tucson+tucson+az/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d671dbd4ba02d1:0xb965ecaec1011875?sa=X&ved=2ahUKEwjwwc_Fy97nAhUHuZ4KHXPeCfwQ9RcwGXoECBoQEQ')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>2130 N Alvernon Way, Tucson, AZ 85712</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk0011PsFysNm98KHGSfzKP0D7jrYTQ%3A1599493523080&ei=k1VWX62xBI7C0PEPn42YuA4&q=yume+japanese+gardens+tucson+google+reviews&oq=yume+japanese+gardens+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoICAAQDRAFEB5Qr40EWOCqBGCPrARoAHAAeACAAZABiAGbEpIBBDUuMTeYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjtxo3asdfrAhUOITQIHZ8GBucQ4dUDCA0&uact=5#lrd=0x86d671dbd4ba02d1:0xb965ecaec1011875,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/yume-japanese-gardens-of-tucson-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_3@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>If you are seeking an intimate concept of Japanese gardens, then you need to head over to the Yumi Japanese Gardens. Yumi Japanese Gardens is located close to the Botanical Gardens. It is a totally different experience. It is made up of five different traditional themes. The tranquil, strolling pond garden is my favorite, transporting me through over 1,000 years of Japanese garden trends. Trust me, you’ll enjoy every second here.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>

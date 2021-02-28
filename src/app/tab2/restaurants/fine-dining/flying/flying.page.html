@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/restaurants/fine-dining"></ion-back-button>
+    </ion-button>
+    <ion-title>Flying V Bar & Grill</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/ventana-canyon.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Ventana Canyon</ion-card-subtitle>
+      <ion-card-title>Flying V Bar & Grill</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.loewshotels.com/ventana-canyon/dining')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>Ventana Canyon - Flying V Bar & Grill</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-299-2020">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 299-2020</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/maps/dir//ventana+canyon+tucson/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x86d66c54362b11d9:0x3ad5cb8f199da43a?sa=X&ved=2ahUKEwiXx42Pw9HnAhXxFzQIHRwPBasQ9RcwFHoECBgQEA')">
+      <ion-icon name="navigate" slot="start"></ion-icon>
+      <ion-label>7000 N Resort Dr, Tucson, AZ 85750</ion-label>
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.google.com/search?rlz=1C1CHBF_enUS903US903&sxsrf=ALeKk00Pv3208OAgdaURvWObVqlPq5lc6Q%3A1599143560972&ei=iP5QX4DvOvqV0PEPt9KJ8AY&q=flying+v+bar+and+grill+tucson+google+reviews&oq=flying+v+bar+and+grill+tucson+google+reviews&gs_lcp=CgZwc3ktYWIQAzoECCEQClD08gNY25QEYIqWBGgAcAB4AIABdIgBuRGSAQQ2LjE2mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiA05X_mc3rAhX6CjQIHTdpAm4Q4dUDCA0&uact=5#lrd=0x86d66c54362b11d9:0xd779d57fdd6969cf,1,,,')" >
+      <ion-icon name="logo-google" slot="start"></ion-icon>
+      <ion-label>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+        <ion-icon name="star" slot="start" style="color:gold"></ion-icon>
+      </ion-label>
+     
+      
+    </ion-item>
+   <ion-item (click)="openWithSystemBrowser('https://www.yelp.com/biz/the-flying-v-bar-and-grill-tucson')">
+      <ion-icon src="/assets/yelp.svg" slot="start"></ion-icon>
+      
+      <img src="/assets/yelp_stars/yelp_stars/web_and_ios/regular/regular_4@2x.png" style="width:inherit"/>
+      
+      
+    </ion-item>
+    <ion-card-content>
+      <p>Modern American cuisine splashed with a Southwestern flair. I don’t know which is more pleasing, the delicious fine dining food or the stunning views of the Catalina Mountains. If you love Tequilas, then you will be happy to hear that they have almost 70 tequilas and cocktails available for your pleasure. The tableside guacamole is a must! It’s made fresh with both traditional and non-traditional ingredients.<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    
+    
+  </ion-card>
+</ion-content>
