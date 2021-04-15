@@ -95,6 +95,10 @@ const routes: Routes = [
   {
     path: 'holmes',
     loadChildren: () => import('./holmes/holmes.module').then( m => m.HolmesPageModule)
+  },
+  {
+    path: 'frostrv',
+    loadChildren: () => import('./frostrv/frostrv.module').then( m => m.FrostrvPageModule)
   }
 ];
 

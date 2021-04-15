@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2"></ion-back-button>
+    </ion-button>
+    <ion-title>The Faces of Tucson</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <img src="/assets/TheFacesOfTucson.jpg" alt="" />
+    <ion-card-header>
+      <ion-card-subtitle>Nominate Someone Today!</ion-card-subtitle>
+      <ion-card-title>The Faces of Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://thefacesoftucson.com/')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>The Faces of Tucson</ion-label>
+    </ion-item>
+  
+    <ion-item href="tel:520-631-8669">
+      <ion-icon name="call" slot="start"></ion-icon>
+      <ion-label>(520) 631-8669</ion-label>
+    </ion-item>
+    
+    <ion-card-content>
+      <p>We are ambassadors for Tucson Arizona and we are excited to introduce our community, one person at a time, to each other and to the world. We are telling the story of our community through the terrific people that live and work here, one voice and one face at a time.
+        If you know of someone that you would like to nominate for this project, please let us know!<br><br>
+      
+      Tony Ray :)</p>
+    </ion-card-content>
+    <ion-button (click)="openWithSystemBrowser('https://thefacesoftucson.com/nomination/')" expand="block">
+      Nominate Someone
+    </ion-button>
+    
+  </ion-card>
+ 
+</ion-content>

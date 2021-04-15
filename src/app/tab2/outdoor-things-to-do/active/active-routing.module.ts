@@ -23,6 +23,10 @@ const routes: Routes = [
   {
     path: 'rocks',
     loadChildren: () => import('./rocks/rocks.module').then( m => m.RocksPageModule)
+  },
+  {
+    path: 'murals',
+    loadChildren: () => import('./murals/murals.module').then( m => m.MuralsPageModule)
   }
 ];
 

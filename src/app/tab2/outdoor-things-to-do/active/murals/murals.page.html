@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="tabs/tab2/outdoor-things-to-do/active"></ion-back-button>
+    </ion-button>
+    <ion-title>Mural Hunting</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <ion-slides pager="true">
+      
+      <ion-slide>
+        <img src="/assets/murals.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/murals1.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/murals2.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/murals3.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/murals4.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="/assets/murals5.jpg" alt="" />
+      </ion-slide>
+  
+      
+  
+    </ion-slides>
+    <ion-card-header>
+      <ion-card-subtitle>Tucson's Best Murals</ion-card-subtitle>
+      <ion-card-title>Go Mural Hunting in Tucson</ion-card-title>
+    </ion-card-header>
+   <ion-item (click)="openWithSystemBrowser('https://www.tucsonaz.gov/business/mural-program')">
+      <ion-icon name="globe" slot="start"></ion-icon>
+      <ion-label>City of Tucson Mural Program</ion-label>
+    </ion-item>
+  
+    
+    <ion-card-content>
+      <p>One of the best ways you can get to know the culture of Tucson is to visit the numerous murals found in Downtown Tucson and the surrounding areas.  In fact, mural hunting happens to be one of my favorite past-times and is a great opportunity to get outside while social distancing.
+
+        What are you waiting for?  Grab your mask, hop on the road, and head downtown to see some of the most wonderful murals in the world!<br><br>
+        
+        Tony Ray</p>
+    </ion-card-content>
+    
+    
+    
+  </ion-card>
+</ion-content>
